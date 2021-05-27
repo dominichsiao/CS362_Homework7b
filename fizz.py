@@ -10,6 +10,10 @@ def print_things():
             #print("Fizz", end = '')
             #print(" ", end = '')
             list.append("Fizz")
+        if(i % 5 == 0):
+            #print("Buzz", end = '')
+            #print(" ", end = '')
+            list.append("Buzz")
     print(list)
     return list
 
