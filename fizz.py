@@ -6,6 +6,10 @@ def print_things():
     for i in range (1,100):
         temp = str(i)
         list.append(temp)
+        if(i % 3 == 0):
+            #print("Fizz", end = '')
+            #print(" ", end = '')
+            list.append("Fizz")
     print(list)
     return list
 
