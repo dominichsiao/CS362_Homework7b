@@ -14,6 +14,11 @@ def print_things():
             #print("Buzz", end = '')
             #print(" ", end = '')
             list.append("Buzz")
+        if(i % 3 == 0):
+            if(i % 5 == 0):
+                #print("FizzBuzz", end = '')
+                #print(" ", end = '')
+                list.append("FizzBuzz")
     print(list)
     return list
 
