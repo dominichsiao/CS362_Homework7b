@@ -8,7 +8,11 @@ def check_year(a):
     a = int(a)
     #print(a)
     if (a % 4 == 0):
-        b = 1
+        if (a % 100 == 0):
+            b = 0
+        else:
+            b = 1
+
     else:
         b = 0
 
